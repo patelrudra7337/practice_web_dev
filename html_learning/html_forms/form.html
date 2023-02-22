@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+
+<body>
+    <h2>Form formation</h2>
+    <form action="backend.php">
+        Name:<input type="text" name="myName" id="name">
+        <div>
+            Date: <input type="date" name="Date" id="selectedDate">
+        </div>
+        <div>
+            Role:<input type="text" name="myRole" id="selectedRole">
+        </div>
+        <div>
+            <br>Write somnething:<textarea name="textSomething" name="myText" cols="90" rows="10">
+
+            </textarea>
+
+        </div>
+        <div>
+            <input type="Submit" name="Submit" id="Done">
+
+        </div>
+        <div>
+            <label for="car">Car</label>
+            <select name="car" id="car">
+                <option value="Mer" selected>Mercedes</option>
+                <option value="LowR">Low Rider</option>
+            </select>
+        </div>
+        <div>
+            Gender:<br>
+            Male <input type="radio" name="myGender"><br>
+            Female <input type="radio" name="myGender"><br>
+            Other<input type="radio" name="myGender"><br>
+        </div>
+        <div>
+            Are you eligible: <input type="checkbox" name="checkbox" id="myEligibility" aria-checked="false ">
+        </div>
+        <div>
+            <input type="color" name="color" id="mySelectedColour">
+            <div>
+                <input type="week" name="week" id="selectedWeek">
+            </div>
+            <div>
+                <input type="button" value="kuch bhi">
+            </div>
+        </div>
+        </div>
+    </form>
+</body>
+
+</html>
